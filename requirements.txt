@@ -1,4 +1,3 @@
 requests
 vcrpy
-coverage
 nose

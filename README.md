@@ -16,12 +16,18 @@ This is a sample python language binding for the HPE Composable Fabric Manager
 
 ## Installation
 
-**pyhpecfm** is currently not available on Pypi. Manual installation is the only 
-method requiring users to first download this git repository locally and then running the install
- command in the **pyhpecfm** folder where the setup.py is located.
+**pyhpecfm** is currently  on the Python Package Index as well as available for Manual installation. 
+Manual method requires users to first download this git repository locally and then running the install
+command in the **pyhpecfm** folder where the setup.py is located.
  
- *pyhpecfm* will be posted to pypi in the future.
+ `pip install -r requirements.txt`
  
-`pip install -r requirements.txt`
+ *pyhpecfm* can also be installed directly from pypi using the following command
+ 
+ `pip install pyhpecfm`
+ 
+
 
 ## Help
+
+For help with the pyhpecfm library or for requesting new functionality to be added, please open up a GITHUB issue and we will do our best to help you out.
