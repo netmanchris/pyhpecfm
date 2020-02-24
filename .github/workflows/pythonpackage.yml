@@ -30,6 +30,8 @@ jobs:
     - name: Test with nosetests
       env:
         CFM_IP: cfmtest.local
+        CFM_USERNAME: admin
+        CFM_PASSWORD: password
       run: |
         nosetests --with-coverage --cover-package=pyhpecfm
 
