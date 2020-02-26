@@ -88,9 +88,10 @@ def add_local_user(cfmclient, username, role, password, params=None):
     Function to add a single new local user to a Composable Fabric Manager
     represented by the CFMClient Object
     :param cfmclient: Composable Fabric Manager connection object of type CFMClient
-    :param username:
-    :param role:
-    :param password:
+    :param username: str Username of the new CFM user to be added
+    :param role: str role of the new username to be added. Valid inputs here
+    are 'Viewer', 'Operator', and 'Administrator'
+    :param password: str desired password of the new CFM User to be added
     :return:
     """
     local_uuid = system.get_auth_sources(cfmclient, params={'type':'local'})[0]['uuid']
